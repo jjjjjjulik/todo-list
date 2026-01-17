@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <h1 className="title">To Do List</h1>
-      {isLoggedIn ? <p>{username}</p> : <button></button>}
+      {isLoggedIn ? <p>hi, {username}</p> : <button>loggin</button>}
     </>
   );
 };
